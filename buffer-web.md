@@ -11,7 +11,7 @@
 
 <b>Contact Information:</b> <a href = "mailto: hello@buffer.com">hello@buffer.com</a>
 
-<b>Notes:</b> This report covers accessibility conformance for the Buffer product which includes features Publish, Analyze and Engage.
+<b>Notes:</b> This report covers accessibility conformance for the Buffer product which includes the product suite Publish, Analyze and Engage.
 
 <b>Evaluation Methods Used:</b> Conformance to the listed accessibility standards has been done through self-evaluation.
 
