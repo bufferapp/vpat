@@ -9,7 +9,7 @@
 
 <b>Date:</b> August 2020
 
-<b>Contact Information:</b> <a href = "mailto: hello@buffer.com">hello@buffer.com</a>
+<b>Contact Information:</b> <a href = "mailto: accessibility@buffer.com">accessibility@buffer.com</a>
 
 <b>Notes:</b> This report covers accessibility conformance for the Buffer product which includes the product suite Publish, Analyze and Engage.
 

@@ -6,7 +6,7 @@
 
 **Date:** August 2020
 
-**Contact Information:** <hello@buffer.com>
+**Contact Information:** <accessibility@buffer.com>
 
 **Notes:** We're committed to achieving high accessibility standards in our mobile apps. Below are common technologies we pledge to support across mobile platforms. If you find any issues within our apps, **we aim to have them fixed within one to two weeks after you've reached out to us.**
 
