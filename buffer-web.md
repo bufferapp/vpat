@@ -184,11 +184,8 @@ The terms used in the Conformance Level information are defined as follows:
     </tr>
     <tr>
       <td><a href="http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id">3.1.1 Language of Page (Level A)</a></td>
-      <td>Supports with exceptions</td>
+      <td>Supports</td>
       <td>
-        <ul>
-          <li>The billing and channel management pages do not support a default language.</li>
-        </ul>
       </td>
     </tr>
     <tr>
