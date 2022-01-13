@@ -11,7 +11,7 @@
 
 <b>Contact Information:</b> <a href = "mailto: accessibility@buffer.com">accessibility@buffer.com</a>
 
-<b>Notes:</b> This report covers accessibility conformance for the Buffer product which includes the product suite Publish, Analyze and Engage.
+<b>Notes:</b> This report covers accessibility conformance for the Buffer product which includes the product suite Publish, Analyze,  Engage and Start Page.
 
 <b>Evaluation Methods Used:</b> Conformance to the listed accessibility standards has been done through self-evaluation.
 
@@ -138,8 +138,11 @@ The terms used in the Conformance Level information are defined as follows:
     </tr>
     <tr>
       <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-pause">2.2.2 Pause, Stop, Hide (Level A)</a></td>
-      <td>Not applicable</td>
+      <td>Supports with exceptions</td>
       <td>
+        <ul>
+          <li>Users may add gifs to their Start Page and while it is in view, it cannot be paused or stopped.</li>
+        </ul>
       </td>
     </tr>
     <tr>
@@ -200,6 +203,7 @@ The terms used in the Conformance Level information are defined as follows:
       <td>
         <ul>
           <li>In an Engage comment reply, hitting “Enter” will cause the reply to be sent and the focus will be moved to the next unprocessed comment on the list.</li>
+          <li>In Start Page, inputs autosave on blur, without explicitly advising the user of this behaviour</li>
         </ul>
       </td>
     </tr>
@@ -319,7 +323,7 @@ The terms used in the Conformance Level information are defined as follows:
       <td>
         <ul>
           <li>Publish supports content magnified up to 400% without the need to scroll in more than one direction to perform primary tasks. The user may need to scroll in more than one direction to access all of the content in Publish at 400% magnification.</li>
-          <li>Engage and Analyze are non-responsive.</li>
+          <li>Engage, Analyze and Start Page are non-responsive.</li>
         </ul>
       </td>
     </tr>
