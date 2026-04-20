@@ -57,7 +57,7 @@ The terms used in the Conformance Level information are defined as follows:
 
 ---
 
-## WCAG 2.x Report
+## <a name="wcag-2-x"></a>WCAG 2.x Report
 
 The WCAG criteria below are applicable to the following standards:
 
@@ -456,12 +456,12 @@ Buffer is a web application accessed through standard web browsers. It does not 
   <tbody>
     <tr>
       <td>501.1 Scope — Incorporation of WCAG 2.0 AA</td>
-      <td>See <a href="#document-top">WCAG 2.x</a> section</td>
+      <td>See <a href="#wcag-2-x">WCAG 2.x</a> section</td>
       <td>See information in WCAG 2.x section above.</td>
     </tr>
     <tr>
       <td>502 Interoperability with Assistive Technology</td>
-      <td>See <a href="#document-top">WCAG 2.x</a> section</td>
+      <td>See <a href="#wcag-2-x">WCAG 2.x</a> section</td>
       <td>Buffer is a web application. Assistive technology interoperability is addressed through WCAG criteria (particularly 4.1.2 Name, Role, Value). Section 502 criteria relating to platform accessibility services apply to native software and are addressed through the browser platform.</td>
     </tr>
     <tr>
@@ -525,7 +525,7 @@ Buffer is a web application accessed through standard web browsers. It does not 
     </tr>
     <tr>
       <td>602.3 Electronic Support Documentation</td>
-      <td>See <a href="#document-top">WCAG 2.x</a> section</td>
+      <td>See <a href="#wcag-2-x">WCAG 2.x</a> section</td>
       <td>See information in WCAG 2.x section above.</td>
     </tr>
     <tr>
@@ -674,7 +674,7 @@ Buffer is a web application and does not include hardware components. All Clause
 
 ### Clause 9: Web
 
-See <a href="#document-top">WCAG 2.x</a> section above. All EN 301 549 Clause 9 criteria map directly to WCAG success criteria.
+See <a href="#wcag-2-x">WCAG 2.x</a> section above. All EN 301 549 Clause 9 criteria map directly to WCAG success criteria.
 
 ### Clause 10: Non-Web Documents
 
@@ -722,12 +722,12 @@ EN 301 549 Clause 11 criteria that map to WCAG (11.1.1.1 through 11.4.1.3) are a
   <tbody>
     <tr>
       <td>11.1.1.1 through 11.4.1.3</td>
-      <td>See <a href="#document-top">WCAG 2.x</a> section</td>
+      <td>See <a href="#wcag-2-x">WCAG 2.x</a> section</td>
       <td>See information in WCAG 2.x section above.</td>
     </tr>
     <tr>
       <td>11.5 Interoperability with assistive technology</td>
-      <td>See <a href="#document-top">WCAG 2.x</a> section</td>
+      <td>See <a href="#wcag-2-x">WCAG 2.x</a> section</td>
       <td>Buffer is a web application. Assistive technology interoperability is addressed through WCAG criteria, particularly 4.1.2 Name, Role, Value. Platform accessibility services are provided by the browser.</td>
     </tr>
     <tr>
@@ -747,7 +747,7 @@ EN 301 549 Clause 11 criteria that map to WCAG (11.1.1.1 through 11.4.1.3) are a
     </tr>
     <tr>
       <td>11.8.2 Accessible content creation</td>
-      <td>See <a href="#document-top">WCAG 2.x</a> section</td>
+      <td>See <a href="#wcag-2-x">WCAG 2.x</a> section</td>
       <td>See also Section 508 criterion 504.2. Alt text input is available for image content where supported by the destination platform.</td>
     </tr>
     <tr>
@@ -786,7 +786,7 @@ EN 301 549 Clause 11 criteria that map to WCAG (11.1.1.1 through 11.4.1.3) are a
     </tr>
     <tr>
       <td>12.1.2 Accessible documentation</td>
-      <td>See <a href="#document-top">WCAG 2.x</a> section</td>
+      <td>See <a href="#wcag-2-x">WCAG 2.x</a> section</td>
       <td>See information in WCAG 2.x section above.</td>
     </tr>
     <tr>
@@ -801,7 +801,7 @@ EN 301 549 Clause 11 criteria that map to WCAG (11.1.1.1 through 11.4.1.3) are a
     </tr>
     <tr>
       <td>12.2.4 Accessible documentation</td>
-      <td>See <a href="#document-top">WCAG 2.x</a> section</td>
+      <td>See <a href="#wcag-2-x">WCAG 2.x</a> section</td>
       <td>See information in WCAG 2.x section above.</td>
     </tr>
   </tbody>
