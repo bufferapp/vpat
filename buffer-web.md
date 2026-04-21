@@ -374,7 +374,7 @@ The WCAG criteria below are applicable to the following standards:
 
 ### Table 3: Success Criteria, Level AAA
 
-This report does not include Level AAA criteria. Buffer is reporting against WCAG 2.2 Level AA, including WCAG 2.1 Level AA criteria.
+This report does not include Level AAA criteria. Buffer is reporting against WCAG 2.2 Levels A and AA, including WCAG 2.1 Level AA criteria.
 
 ---
 
