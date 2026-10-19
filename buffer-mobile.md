@@ -4,9 +4,9 @@
 
 <b>Name of Product:</b> Buffer
 
-<b>Platform:</b> Mobile Apps (iOS and Android)
+<b>Platform:</b> Mobile Apps (iOS on iPhone, Android on phone)
 
-<b>Date:</b> September 2026
+<b>Date:</b> October 2026
 
 <b>Contact Information:</b> <a href="mailto:accessibility@buffer.com">accessibility@buffer.com</a>
 
@@ -25,7 +25,7 @@ If a specific accessibility criterion matters to your use of Buffer, or you have
 
 ---
 
-<b>Notes:</b> This report covers accessibility conformance for the Buffer native iOS and Android mobile applications in a single combined document. WCAG success criteria are interpreted for native app context using the W3C <a href="https://www.w3.org/TR/wcag2mobile-22/">WCAG2Mobile</a> guidance. Findings are reported per platform in the Remarks column. Accessibility conformance for the Buffer web application is reported separately in <a href="./buffer-web.md">buffer-web.md</a>.
+<b>Notes:</b> This report covers accessibility conformance for the Buffer native iOS and Android mobile applications in a single combined document. Scope is deliberately limited to the iPhone and Android phone experiences. iPad, Apple Watch, macOS and visionOS clients are <b>not covered by this report</b> and will be addressed separately once mobile evaluation is complete. WCAG success criteria are interpreted for native app context using the W3C <a href="https://www.w3.org/TR/wcag2mobile-22/">WCAG2Mobile</a> guidance. Findings are reported per platform in the Remarks column. Accessibility conformance for the Buffer web application is reported separately in <a href="./buffer-web.md">buffer-web.md</a>.
 
 <b>Evaluation Methods Used:</b> Self-assessment. Manual testing has been carried out on the Android app using TalkBack across a subset of prioritised flows, including primary navigation, the post composer, and calendar and queue views. No formal evaluation of the iOS app has been carried out to date. No automated accessibility scans have been completed for either app; the tooling available for native apps on both platforms (iOS Accessibility Inspector and Android Accessibility Scanner) requires manual, per-screen operation rather than a full automated audit, and results from these tools are not yet reflected in this report.
 
@@ -108,17 +108,17 @@ The WCAG criteria below are applicable to the following standards:
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded">1.2.1 Audio-only and Video-only (Prerecorded)</a> (Level A)</td>
       <td>Not Applicable</td>
-      <td><b>Both platforms:</b> The mobile apps do not present prerecorded audio-only or video-only content.</td>
+      <td><b>Both platforms:</b> Buffer does not present prerecorded audio-only or video-only content of its own. Video supplied by the user and previewed in the composer is authored content rather than content the product presents, and is addressed under the authoring criteria in Section 508 Chapter 5.</td>
     </tr>
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#captions-prerecorded">1.2.2 Captions (Prerecorded)</a> (Level A)</td>
       <td>Not Applicable</td>
-      <td><b>Both platforms:</b> The mobile apps do not include in-app video content.</td>
+      <td><b>Both platforms:</b> Buffer does not present prerecorded video as product content, so there is no Buffer-supplied media requiring captions. The apps do include a video player for media the user has supplied; controls on that player are addressed under Section 508 criterion 503.4.</td>
     </tr>
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded">1.2.3 Audio Description or Media Alternative (Prerecorded)</a> (Level A)</td>
       <td>Not Evaluated</td>
-      <td>Not yet formally evaluated. The mobile apps are not understood to include prerecorded media content (see 1.2.1 and 1.2.2); this will be confirmed in a future review.</td>
+      <td>Not yet formally evaluated. Buffer does not present prerecorded media of its own (see 1.2.1 and 1.2.2), so this criterion is expected to be Not Applicable; this will be confirmed in a future review.</td>
     </tr>
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#info-and-relationships">1.3.1 Info and Relationships</a> (Level A)</td>
@@ -142,8 +142,8 @@ The WCAG criteria below are applicable to the following standards:
     </tr>
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#audio-control">1.4.2 Audio Control</a> (Level A)</td>
-      <td>Not Applicable</td>
-      <td><b>Both platforms:</b> No audio plays automatically in the mobile apps.</td>
+      <td>Not Evaluated</td>
+      <td>Audio does play automatically in some cases, so this criterion applies. An earlier assessment of Not Applicable has been corrected. <b>iOS:</b> opening the video player sets the audio session to playback, which bypasses the device silent switch, and Instagram Music previews begin playing automatically. Whether a mechanism exists to pause, stop, or control that audio independently of the system volume has not yet been evaluated. <b>Android:</b> Not evaluated.</td>
     </tr>
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#keyboard">2.1.1 Keyboard</a> (Level A)</td>
@@ -282,7 +282,7 @@ The WCAG criteria below are applicable to the following standards:
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#audio-description-prerecorded">1.2.5 Audio Description (Prerecorded)</a> (Level AA)</td>
       <td>Not Evaluated</td>
-      <td>Not yet formally evaluated. The mobile apps are not understood to include prerecorded media content (see 1.2.1 and 1.2.2); this will be confirmed in a future review.</td>
+      <td>Not yet formally evaluated. Buffer does not present prerecorded media of its own (see 1.2.1 and 1.2.2), so this criterion is expected to be Not Applicable; this will be confirmed in a future review.</td>
     </tr>
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#orientation">1.3.4 Orientation</a> (Level AA — WCAG 2.1)</td>
@@ -327,7 +327,7 @@ The WCAG criteria below are applicable to the following standards:
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#content-on-hover-or-focus">1.4.13 Content on Hover or Focus</a> (Level AA — WCAG 2.1)</td>
       <td>Not Applicable</td>
-      <td><b>Both platforms:</b> The mobile apps do not present content on hover or focus. Native mobile touch interfaces do not provide a hover state.</td>
+      <td><b>Both platforms:</b> The apps do not present content on hover or focus on the phone experiences in scope, which are touch-only. Hover input is available on iPad via trackpad or pencil; iPad is outside the scope of this report and will be assessed separately.</td>
     </tr>
     <tr>
       <td><a href="https://www.w3.org/TR/WCAG21/#multiple-ways">2.4.5 Multiple Ways</a> (Level AA)</td>
@@ -434,12 +434,12 @@ This report does not include Level AAA criteria. Buffer is reporting against WCA
     <tr>
       <td>302.4 Without Hearing</td>
       <td>Not Evaluated</td>
-      <td>Not yet formally evaluated. The mobile apps are not understood to rely on audio for any workflow (see 1.2.1 and 1.4.2); this will be confirmed in a future review.</td>
+      <td>Not yet formally evaluated. Core publishing workflows are not understood to depend on audio, but the apps do play audio in some cases (see 1.4.2), so this requires confirmation rather than assumption.</td>
     </tr>
     <tr>
       <td>302.5 With Limited Hearing</td>
       <td>Not Evaluated</td>
-      <td>Not yet formally evaluated. The mobile apps are not understood to rely on audio for any workflow (see 1.2.1 and 1.4.2); this will be confirmed in a future review.</td>
+      <td>Not yet formally evaluated. Core publishing workflows are not understood to depend on audio, but the apps do play audio in some cases (see 1.4.2), so this requires confirmation rather than assumption.</td>
     </tr>
     <tr>
       <td>302.6 Without Speech</td>
@@ -502,7 +502,7 @@ Buffer provides mobile applications that run on standard consumer smartphones. B
     <tr>
       <td>503.4 User Controls for Captions and Audio Description</td>
       <td>Not Evaluated</td>
-      <td>Not yet formally evaluated. The mobile apps are not understood to include an in-app video player (see 1.2.2); this will be confirmed in a future review.</td>
+      <td>The apps do include a video player for media the user has supplied, built on the platform player on iOS, so this criterion applies. Whether that player exposes user controls for captions and audio description has not yet been formally evaluated on either platform.</td>
     </tr>
     <tr>
       <td>504.2 Content Creation or Editing</td>
@@ -526,8 +526,8 @@ Buffer provides mobile applications that run on standard consumer smartphones. B
     </tr>
     <tr>
       <td>504.4 Templates</td>
-      <td>Not Applicable</td>
-      <td><b>Both platforms:</b> The mobile apps do not provide document templates.</td>
+      <td>Not Evaluated</td>
+      <td>Both apps provide post templates, so this criterion applies and an earlier assessment of Not Applicable has been corrected. Whether those templates support the creation of accessible content, including alt text on template media, has not yet been formally evaluated.</td>
     </tr>
   </tbody>
 </table>
@@ -760,8 +760,8 @@ Clause 11 is the relevant EN 301 549 clause for native mobile applications. Crit
     </tr>
     <tr>
       <td>11.8.5 Templates</td>
-      <td>Not Applicable</td>
-      <td><b>Both platforms:</b> The mobile apps do not provide content templates that generate output documents.</td>
+      <td>Not Evaluated</td>
+      <td>See Section 508 criterion 504.4. Both apps provide post templates; whether they support creation of accessible content has not yet been evaluated.</td>
     </tr>
   </tbody>
 </table>
@@ -817,6 +817,6 @@ This document is provided for informational purposes and reflects Buffer's self-
 
 ---
 
-_Report prepared by Buffer — September 2026_
+_Report prepared by Buffer — October 2026_
 
 _This VPAT follows the ITI VPAT® 2.5 International Edition format. For questions, contact <a href="mailto:accessibility@buffer.com">accessibility@buffer.com</a>._
